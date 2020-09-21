@@ -1,0 +1,5 @@
+print(range(5))
+print(range(44,47))
+print(range(-3,2))
+print(range(1,8,2))
+print(range(5,1,-1))

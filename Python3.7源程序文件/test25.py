@@ -1,0 +1,11 @@
+import calendar as cal
+print(cal.month(2019,7))
+cal.prmonth(2019,7)
+print(cal.calendar(2019))
+cal.prcal(2019)
+t=cal.monthcalendar(2019,7)
+print(t)
+print(cal.isleap(2019))
+print(cal.isleap(2000))
+print(cal.isleap(2100))
+print(cal.isleap(2016))

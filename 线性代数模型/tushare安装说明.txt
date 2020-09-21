@@ -1,0 +1,4 @@
+api的接口变了，修改
+Python37\Lib\site-packages\tushare\stock\macro_vars.py
+里面，把MACRO_URL替换为
+MACRO_URL = '%squotes.%s/mac/api/jsonp_v3.php/SINAREMOTECALLCALLBACK%s/MacPage_Service.get_pagedata?cate=%s&event=%s&from=0&num=%s&condition=&_=%s'

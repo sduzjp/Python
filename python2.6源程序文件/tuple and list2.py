@@ -1,0 +1,9 @@
+x=3
+y=4
+'''temp=x
+x=y
+y=temp
+print("x=%d,y=%d"%(x,y))
+'''
+(x,y)=(y,x)
+print((x,y))
